@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/jpignata/fargate/elbv2"
-	"github.com/jpignata/fargate/route53"
+	"github.com/masterxavierfox/fargate/elbv2"
+	"github.com/masterxavierfox/fargate/route53"
 	"github.com/spf13/cobra"
 )
 

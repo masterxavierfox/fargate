@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/jpignata/fargate/console"
+	"github.com/masterxavierfox/fargate/console"
 )
 
 func GetShortSha() string {

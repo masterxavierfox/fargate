@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/jpignata/fargate/acm"
+	"github.com/masterxavierfox/fargate/acm"
 	"github.com/spf13/cobra"
 )
 

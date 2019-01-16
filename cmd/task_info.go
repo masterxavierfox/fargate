@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jpignata/fargate/console"
-	EC2 "github.com/jpignata/fargate/ec2"
-	ECS "github.com/jpignata/fargate/ecs"
+	"github.com/masterxavierfox/fargate/console"
+	EC2 "github.com/masterxavierfox/fargate/ec2"
+	ECS "github.com/masterxavierfox/fargate/ecs"
 	"github.com/spf13/cobra"
 )
 

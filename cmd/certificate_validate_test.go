@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/jpignata/fargate/acm"
-	acmclient "github.com/jpignata/fargate/acm/mock/client"
-	"github.com/jpignata/fargate/cmd/mock"
-	"github.com/jpignata/fargate/route53"
-	route53client "github.com/jpignata/fargate/route53/mock/client"
+	"github.com/masterxavierfox/fargate/acm"
+	acmclient "github.com/masterxavierfox/fargate/acm/mock/client"
+	"github.com/masterxavierfox/fargate/cmd/mock"
+	"github.com/masterxavierfox/fargate/route53"
+	route53client "github.com/masterxavierfox/fargate/route53/mock/client"
 )
 
 func TestCertificateValidateOperation(t *testing.T) {

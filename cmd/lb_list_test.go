@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/jpignata/fargate/cmd/mock"
-	"github.com/jpignata/fargate/elbv2"
-	elbv2client "github.com/jpignata/fargate/elbv2/mock/client"
+	"github.com/masterxavierfox/fargate/cmd/mock"
+	"github.com/masterxavierfox/fargate/elbv2"
+	elbv2client "github.com/masterxavierfox/fargate/elbv2/mock/client"
 )
 
 func TestLBListOperation(t *testing.T) {
