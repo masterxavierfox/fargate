@@ -60,7 +60,7 @@ var (
 var rootCmd = &cobra.Command{
 	Use:   "fargate",
 	Short: "Deploy serverless containers onto the cloud from your command line",
-	Long: `Deploy serverless containers onto the cloud from your command line
+	Long: `ISSA CUSTOM BUILD :::: Deploy serverless containers onto the cloud from your command line
 
 fargate is a command-line interface to deploy containers to AWS Fargate that
 makes it easy to run containers in AWS as one-off tasks or managed, highly
@@ -168,7 +168,7 @@ func Execute() {
 
 func init() {
 	rootCmd.PersistentFlags().BoolVarP(&verbose, "verbose", "v", false, "Verbose output")
-	rootCmd.PersistentFlags().StringVar(&region, "region", "", `AWS region (default "us-east-1")`)
+	rootCmd.PersistentFlags().StringVar(&region, "region", "", `AWS region (default "eu-west-1")`)
 	rootCmd.PersistentFlags().BoolVar(&noColor, "no-color", false, "Disable color output")
 	rootCmd.PersistentFlags().StringVar(&clusterName, "cluster", "", `ECS cluster name (default "fargate")`)
 
